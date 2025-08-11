@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB41D115-C0D0-81B1-EF3B-7BCA6B2ACCB4" name="User">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:14:13 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="userId" id="FD74DF7B-7E57-23C4-044D-5C7CF2048F7C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:14:34 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B6D0BA6C-E0B1-530D-33CC-DF23D1172469">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:21:56 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth" id="9DA4FA8D-7867-9D8C-7D40-8A8383C0C28C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:21:56 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="655A9935-5F17-B624-AEB4-8A3837291BC6">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:21:56 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hp" id="7A2BFFA9-87BB-DD6C-CE79-F350385BBF38">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:21:56 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="7D1EFB0E-94C9-C178-BB72-7A1BFE902BEC">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:21:56 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="point" id="73331503-A852-9808-C275-8A9F6E34F19A">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:21:56 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="level" id="9E412414-FE74-CA26-7AB9-30CD27B311C8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:21:56 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="9B581298-0E31-9309-0736-0E7991E6619D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:21:56 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regDate" id="2B5AD6CE-1605-5F25-4F3E-61C3527D33DA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:21:56 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4A9CED2-BFD2-35D0-2B9B-933BBEE0390E" name="User_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:14:34 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD74DF7B-7E57-23C4-044D-5C7CF2048F7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

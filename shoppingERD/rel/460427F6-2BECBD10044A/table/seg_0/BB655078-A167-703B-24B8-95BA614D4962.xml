@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB655078-A167-703B-24B8-95BA614D4962" name="Seller">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:15:04 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sellerNo" id="7078AF43-E960-3E73-0332-4B2F3D3ED44E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:15:25 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="compnay" id="F8612014-9A6E-43C4-4E92-652A8E60EC6A">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:22:50 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tel" id="396307A0-595C-FE55-3B96-656D13FB498E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:22:50 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="manager" id="2BEF32DF-AA06-A670-2DA9-FBFF8FDB230A">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:22:50 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="5625212B-BD3E-61B2-4507-571716FFA1B2">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:22:50 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E83B668-21A7-5D2E-B9E7-37AAB3F4FD7B" name="Seller_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:15:25 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7078AF43-E960-3E73-0332-4B2F3D3ED44E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

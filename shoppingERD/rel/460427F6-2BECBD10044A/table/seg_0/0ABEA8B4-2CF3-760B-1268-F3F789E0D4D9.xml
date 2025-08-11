@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0ABEA8B4-2CF3-760B-1268-F3F789E0D4D9" name="Orders">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:04 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderNo" id="F38BE444-87AF-8CB4-CCFC-7CBF92A34451">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:15 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="userId" id="DCA78683-1949-F5BE-C163-DF2917AD8256">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:19:00 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E24B77B9-4B46-2C03-28A2-C787704DE54E" referredColumn="FD74DF7B-7E57-23C4-044D-5C7CF2048F7C"/>
+</associations>
+</Column>
+<Column name="orderTotalPrice" id="5AF3F5FE-8964-08A5-CD48-35BCC5CF550F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:25:17 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderAddress" id="636EC764-C95F-70D6-6F0E-5BDFFFCAD18B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:25:17 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderStatus" id="F32F70C9-1634-1618-3455-700B76DF530F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:25:17 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderDate" id="C92AF6CA-9D32-299F-09D7-9CCB86CB422B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:25:17 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AA24AFB-7D7C-2F5D-26D6-2C5B5FD35C3B" name="Orders_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:17:15 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F38BE444-87AF-8CB4-CCFC-7CBF92A34451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="141DFB21-9F54-E613-0D8B-29DE7FEC5D2B" name="Orders_User_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:19:00 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCA78683-1949-F5BE-C163-DF2917AD8256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

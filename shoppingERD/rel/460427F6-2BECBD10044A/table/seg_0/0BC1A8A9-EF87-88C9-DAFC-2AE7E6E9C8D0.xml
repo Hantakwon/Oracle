@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BC1A8A9-EF87-88C9-DAFC-2AE7E6E9C8D0" name="Category">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:16:07 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cateNo" id="AD68C0C1-D99A-996B-337F-757A0BB39505">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:16:23 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cateName" id="4E030380-F00A-8531-BB78-4238FC90CDD0">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:23:08 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1E08EA7-D778-F6B1-BDB1-1BEFBE7D6DC8" name="Category_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:16:23 UTC</createdTime>
+<ownerDesignName>shoppingERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD68C0C1-D99A-996B-337F-757A0BB39505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
