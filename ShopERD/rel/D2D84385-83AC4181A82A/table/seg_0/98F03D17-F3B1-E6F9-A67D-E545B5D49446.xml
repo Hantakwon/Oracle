@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98F03D17-F3B1-E6F9-A67D-E545B5D49446" name="Order">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:49:16 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderNo" id="6D15202E-96DF-7355-27A5-0D857BD8EFA2">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:50:21 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderId" id="A7A6EB59-25BF-E8CD-21C4-C7E1D3413E14">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:09:33 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07F8C1EB-5935-F8D1-AA44-6D692C9FF380" referredColumn="A40AE177-9E18-73C7-E1E1-E58B2971BBD0"/>
+</associations>
+</Column>
+<Column name="orderProduct" id="1E72F87E-0F36-AD2B-EBFE-02F61842C7A1">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:10:04 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="328F6FE0-9E3E-8F08-D21E-25B82239AF26" referredColumn="7383DA21-09E5-60D5-8E15-6EE66C7443B9"/>
+</associations>
+</Column>
+<Column name="orderCount" id="7BBF6AF0-C070-0D48-D642-A9D63F97E14F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:50:21 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderDate" id="18F218BC-51BE-FEA8-94AF-0C0C82A6FE6D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:50:21 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDF8D00E-081B-15C0-C0B0-BF422BC69B91" name="Order_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:50:21 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D15202E-96DF-7355-27A5-0D857BD8EFA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="520FBD16-E1D2-6A0D-BCA3-335D0EEC4F8E" name="Order_Customer_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:09:33 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A6EB59-25BF-E8CD-21C4-C7E1D3413E14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77420465-7612-D73E-D8EA-AB3ED7D5BCF4" name="Order_Shop_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:10:04 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E72F87E-0F36-AD2B-EBFE-02F61842C7A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

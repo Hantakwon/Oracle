@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ShopERD" id="388563BF-1B33-90F8-DB97-C5C0B94F18EB" version="3.5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:39:18 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>388563BF-1B33-90F8-DB97-C5C0B94F18EB</designId>
+</OSDM_Design>
