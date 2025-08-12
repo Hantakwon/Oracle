@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9ADB3D0-FA83-5512-20BC-F3948EEE4C6C" name="BO_Order3">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:21:25 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderNo" id="0E127AE8-8417-0DBF-D84E-84524C917A63">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:21:25 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ordertId" id="1FD1EDF8-33B1-1B63-673F-22034ECC28EE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:26:17 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="459C107A-AAAD-8986-A175-6DBCCC3BC623" referredColumn="66A878AB-19FD-705C-4331-6937320B35E8"/>
+</associations>
+</Column>
+<Column name="orderDate" id="5CCF25DE-C5F1-6F79-39DA-D9EEB64494BD">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:21:25 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3B23BDC-FF82-C1C4-B116-460CFD389A8C" name="Orderv1_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:21:25 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E127AE8-8417-0DBF-D84E-84524C917A63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2307ABBE-FF64-68BC-D55D-E61C562DB3A5" name="BO_Order3_BO_Customer3_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:26:17 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FD1EDF8-33B1-1B63-673F-22034ECC28EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

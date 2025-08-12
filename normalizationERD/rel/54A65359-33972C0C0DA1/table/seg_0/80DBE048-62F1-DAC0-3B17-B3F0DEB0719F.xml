@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80DBE048-62F1-DAC0-3B17-B3F0DEB0719F" name="BO_OrderItem3">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:24:50 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderNo1" id="C3034F15-3FCE-916C-F772-EC03FD12BFAF">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:27:33 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E087AF86-A3EF-22F7-CDC6-F2553771F3A9" referredColumn="0E127AE8-8417-0DBF-D84E-84524C917A63"/>
+</associations>
+</Column>
+<Column name="price" id="E794E9E1-D0AD-A0C2-7716-EFCD88CCE74D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:24:50 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bookId1" id="A8B5AA93-ECA7-9C9D-6E1C-69D4CDF0509E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:27:06 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D79AADDF-AC57-D3B6-9126-EBFF4A929C85" referredColumn="A22CAFA1-2CCF-14F0-4F81-45903D92A6C8"/>
+</associations>
+</Column>
+<Column name="count" id="4C0E110A-2248-AF92-BA8A-78C8E93CC17B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:25:53 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43F27BA3-9EB4-0B22-2112-B595DC40A9F5" name="BO_Order3v1_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:24:50 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8B5AA93-ECA7-9C9D-6E1C-69D4CDF0509E"/>
+<colUsage columnID="C3034F15-3FCE-916C-F772-EC03FD12BFAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="230CDBE9-50CA-EB94-D6E5-120F31DC9453" name="BO_OrderItem3_BO_Book3_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:27:06 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8B5AA93-ECA7-9C9D-6E1C-69D4CDF0509E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F940F603-718F-7E04-C534-C64F7F451DDC" name="BO_OrderItem3_BO_Order3_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 06:27:33 UTC</createdTime>
+<ownerDesignName>normalizationERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3034F15-3FCE-916C-F772-EC03FD12BFAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
